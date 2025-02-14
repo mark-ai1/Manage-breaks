@@ -133,7 +133,7 @@ async def break_history(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Command Handlers
 def main():
-    bot_token = "7695331037:AAGXq8STSEryfiKCak9Igtaa5zcoElbN2yU"
+    bot_token = "YOUR_BOT_TOKEN"
     app = Application.builder().token(bot_token).build()
 
     app.add_handler(CommandHandler("break", start_break))
